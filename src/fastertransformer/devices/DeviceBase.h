@@ -21,10 +21,12 @@ public:
 public:
     // device-independence op implementations
     CloneOutput clone(const CloneParams& params) override;
+    //comment it for time being
+    /*
     AttentionLayerOutput attentionLayer(const AttentionLayerParams& params) override;
     FfnLayerOutput ffnLayer(const FfnLayerParams& params) override;
     LoraLinearOutput loraLinear(const LoraLinearParams& params) override;
-
+    */
 protected:
     BufferStatus queryBufferStatus();
     AllocationType getMemAllocationType(const MemoryType type);

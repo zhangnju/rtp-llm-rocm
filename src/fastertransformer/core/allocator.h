@@ -11,6 +11,8 @@ enum class AllocatorType {
     CPU,
     CUDA,
     CUDA_HOST,
+    ROCM,
+    ROCM_HOST,
     TH,
 };
 
